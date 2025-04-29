@@ -21,6 +21,8 @@ pipeline {
                     aws --version
                 '''
             }
+        }
+    
         
         stage('Build') {
             agent {
